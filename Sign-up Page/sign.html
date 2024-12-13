@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-up Page</title>
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="../CSS/bootstrap.min.css">
+    <!-- main css -->
+    <link rel="stylesheet" href="../CSS/style.css">
+<!-- font awesome css -->
+ <link rel="stylesheet" href="../CSS/all.min.css">
+
+</head>
+<body>
+  
+    
+    <section class="pt-4 mt-4">
+        <div class="container">
+          <div class="sign-card mx-auto text-white p-5">
+            <header class="text-center mb-3">Smart Login System</header>
+    
+            <div class="mb-3">
+                <input type="text" class="form-control" oninput="validation(this)" id="signUpName"
+                  placeholder="Enter your name">
+                <p class="text-danger d-none"> It should start with an uppercase letter (A-Z), followed by 2-10
+                  lowercase letters (a-z)</p>
+              </div>
+      
+      
+              <div class="mb-3">
+                <input type="email" class="form-control" oninput="validation(this)" id="signUpEmail"
+                  placeholder="Enter your email">
+                <p class="text-danger d-none">
+                  The email must end with @gmail.com ex.(Ahmed@gmail.com)</p>
+              </div>
+      
+              <div class="mb-4">
+                <input type="password" class="form-control" oninput="validation(this)" id="signUnPassword"
+                  placeholder="Enter password">
+                <p class="text-danger d-none"> Input must start with an uppercase letter, contain only letters or numbers, and
+                  be 2-10 characters long.</p>
+              </div>
+      
+              <div class="mb-3">
+                <button type="submit" class="btn btn-outline-info w-100 pt-1" onclick="addAcount()" id="signUpBtn">Sign
+                  Up</button>
+              </div>
+    
+    
+    
+            <p class="text-center">Don't have an account? <a class="text-white Sign_Up"
+                href="../index.html">Sign in</a></p>
+    
+          </div>
+        </div>
+      </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- bootstrap js -->
+<script src="../JS/bootstrap.bundle.min.js"></script>
+<!-- main js -->
+    <script src="../JS/main.js"></script>
+<!-- link sweet alert -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>

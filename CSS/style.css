@@ -1,0 +1,100 @@
+/* ^Start Global Stylee */
+body {
+    background-color: #24353F;
+    font-family: sans-serif;
+}
+
+.form-control {
+    padding: 6.5px 15.2px;
+    color: #fff;
+    background-color: #24353F;
+    border-radius: .25rem;
+}
+
+.form-control::placeholder {
+    color: #ffffff99;
+}
+
+.form-control:focus {
+    color: #fff;
+    background-color: #24353F;
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: none;
+}
+
+.hide {
+    top: 50%;
+    right: 2%;
+    cursor: pointer;
+}
+
+/* ^End GLobal Style */
+
+/*^ start Sign-up Page */
+
+.sign-card,
+.card-user-page {
+    width: 65%;
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+
+header {
+
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: #17a2b8;
+    line-height: 3rem;
+
+}
+.Sign_in , .Sign_Up{
+    text-decoration: none;
+}
+.Sign_in:hover , .Sign_Up:hover{
+    text-decoration: underline;
+}
+.btn-outline-info{
+    color: #17a2b8;
+    background-color: transparent;
+    background-image: none;
+    border-color: #17a2b8;
+}
+.btn-outline-info:hover {
+    color: #fff;
+    background-color: #17a2b8;
+    border-color: #17a2b8;
+}
+.btn-outline-info:active{
+    color: #fff;
+}
+.btn-outline-info:focus {
+    box-shadow: 0 0 0 .2rem rgba(23, 162, 184, .5);
+}
+.btn:first-child:active {
+    color: #fff;
+}
+/* ^End Sign Page */
+/* ^Start login Page  */
+nav {
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+.logout:focus {
+    color: rgba(255, 255, 255, .75);
+}
+.logout {
+    color: rgba(255, 255, 255, .5);
+}
+
+.btn-outline-warning.logout:focus {
+    box-shadow: 0 0 0 .2rem rgba(255, 193, 7, .5);
+}
+
+.user-page{
+    height: 80vh;
+}
+h1{
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: #17a2b8; 
+}
+/* ^End login Page  */

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="./CSS/bootstrap.min.css">
+    <!-- main css -->
+    <link rel="stylesheet" href="./CSS/style.css">
+<!-- font awesome css -->
+ <link rel="stylesheet" href="./CSS/all.min.css">
+</head>
+<body>
+   
+    <section class="pt-4 mt-4">
+        <div class="container">
+          <div class="sign-card mx-auto text-white p-5">
+            <header class="text-center mb-3">Smart Login System</header>
+    
+            <div class="mb-3">
+              <input type="email" class="form-control" id="signInEmail" placeholder="Enter your Email">
+            </div>
+    
+            <div class="mb-4 position-relative">
+              <input type="password" class="form-control" id="signInPassword" placeholder="Enter your Password">
+              <i class="fa-solid fa-eye-slash hide position-absolute translate-middle"></i>
+            </div>
+            <h4 class="incorrect text-center text-danger h6 mb-4 d-none">incorrect email or password</h4>
+            <div class="mb-3">
+              <button type="submit" class="btn btn-outline-info w-100 pt-1" onclick="login()" id="signInBtn" >Login</button>
+            </div>
+    
+    
+    
+            <p class="text-center">Don't have an account? <a class="text-white Sign_Up"
+                href="./Sign-up Page/sign.html">Sign Up</a></p>
+    
+          </div>
+        </div>
+      </section>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- bootstrap js -->
+<script src="./JS/bootstrap.bundle.min.js"></script>
+<!-- main js -->
+    <script src="./JS/main.js"></script>
+<!-- link sweet alert -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>
